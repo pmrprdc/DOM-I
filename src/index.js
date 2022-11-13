@@ -40,6 +40,7 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
 };
 
 const nav = document.querySelector("nav");
+const navLinks = document.querySelectorAll("nav a");
 const header = document.querySelector("header");
 const cta = document.querySelector(".cta");
 const logoImg = document.querySelector("#logo-img");
@@ -52,6 +53,14 @@ const bottomContent = document.querySelector(".bottom-content");
 const contactHeader = document.querySelector(".contact h4");
 const contactTexts = document.querySelectorAll(".contact p");
 const copyRight = document.querySelector("footer a");
+
+navLinks[0].innerHTML = siteContent.nav["nav-item-1"]
+navLinks[1].innerHTML = siteContent.nav["nav-item-2"]
+navLinks[2].innerHTML = siteContent.nav["nav-item-3"]
+navLinks[3].innerHTML = siteContent.nav["nav-item-4"]
+navLinks[4].innerHTML = siteContent.nav["nav-item-5"]
+navLinks[5].innerHTML = siteContent.nav["nav-item-6"]
+
 
 
 
