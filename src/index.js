@@ -39,4 +39,20 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
   },
 };
 
-console.log('project wired!')
+const nav = document.querySelector("nav");
+const header = document.querySelector("header");
+const cta = document.querySelector(".cta");
+const logoImg = document.querySelector("#logo-img");
+const ctaHeadline = document.querySelector(".cta-text h1");
+const ctaButton = document.querySelector(".cta-text button");
+const ctaImg = document.querySelector("#cta-img");
+const topContent = document.querySelector(".top-content");
+const middleImg = document.querySelector(".middle-img");
+const bottomContent = document.querySelector(".bottom-content");
+const contactHeader = document.querySelector(".contact h4");
+const contactTexts = document.querySelectorAll(".contact p");
+const copyRight = document.querySelector("footer a");
+
+
+
+
