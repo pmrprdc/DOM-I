@@ -65,3 +65,6 @@ logoImg.setAttribute("src", siteContent.images["logo-img"]);
 
 ctaHeadline.innerHTML = siteContent.cta.h1;
 ctaButton.innerHTML = siteContent.cta.button;
+
+
+ctaImg.src = siteContent.images["cta-img"]
