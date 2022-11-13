@@ -61,7 +61,5 @@ navLinks[3].innerHTML = siteContent.nav["nav-item-4"]
 navLinks[4].innerHTML = siteContent.nav["nav-item-5"]
 navLinks[5].innerHTML = siteContent.nav["nav-item-6"]
 
-
-
-
+logoImg.setAttribute("src", siteContent.images["logo-img"]);
 
