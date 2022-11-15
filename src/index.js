@@ -53,6 +53,15 @@ const bottomContent = document.querySelector(".bottom-content");
 const contactHeader = document.querySelector(".contact h4");
 const contactTexts = document.querySelectorAll(".contact p");
 const copyRight = document.querySelector("footer a");
+const featuresHeadline = document.querySelector(".top-content .text-content h4")
+const aboutHeadline = document.querySelector(".text-content:nth-of-type(2) h4")
+const featuresText = document.querySelector(".top-content .text-content p")
+const aboutText = document.querySelector(".top-content .text-content:nth-of-type(2) p");
+
+
+
+
+
 
 navLinks[0].innerHTML = siteContent.nav["nav-item-1"]
 navLinks[1].innerHTML = siteContent.nav["nav-item-2"]
@@ -68,3 +77,9 @@ ctaButton.innerHTML = siteContent.cta.button;
 
 
 ctaImg.src = siteContent.images["cta-img"]
+
+
+featuresHeadline.innerHTML = siteContent.contact["contact-h4"];
+aboutHeadline.innerHTML = siteContent["main-content"]["about-h4"];
+featuresText.innerHTML = siteContent["main-content"]["features-content"];
+aboutText.innerHTML =siteContent["main-content"]["about-content"];
