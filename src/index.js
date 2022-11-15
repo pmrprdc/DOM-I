@@ -57,7 +57,12 @@ const featuresHeadline = document.querySelector(".top-content .text-content h4")
 const aboutHeadline = document.querySelector(".text-content:nth-of-type(2) h4")
 const featuresText = document.querySelector(".top-content .text-content p")
 const aboutText = document.querySelector(".top-content .text-content:nth-of-type(2) p");
-
+const servicesh4 = document.querySelector(".bottom-content .text-content:nth-of-type(1) h4")
+const servicesContent = document.querySelector(".bottom-content .text-content:nth-of-type(1) p")
+const producth4 = document.querySelector(".bottom-content .text-content:nth-of-type(2) h4")
+const productContent = document.querySelector(".bottom-content .text-content:nth-of-type(2) p")
+const visionh4 = document.querySelector(".bottom-content .text-content:nth-of-type(3) h4")
+const visionContent = document.querySelector(".bottom-content .text-content:nth-of-type(3) p")
 
 
 
@@ -83,3 +88,10 @@ featuresHeadline.innerHTML = siteContent.contact["contact-h4"];
 aboutHeadline.innerHTML = siteContent["main-content"]["about-h4"];
 featuresText.innerHTML = siteContent["main-content"]["features-content"];
 aboutText.innerHTML =siteContent["main-content"]["about-content"];
+middleImg.src = siteContent.images["accent-img"];
+servicesh4.innerHTML = siteContent["main-content"]["services-h4"];
+producth4.innerHTML = siteContent["main-content"]["product-h4"];
+visionh4.innerHTML = siteContent["main-content"]["vision-h4"];
+servicesContent.innerHTML = siteContent["main-content"]["services-content"];
+productContent.innerHTML = siteContent["main-content"]["product-content"];
+visionContent.innerHTML = siteContent["main-content"]["vision-content"];
