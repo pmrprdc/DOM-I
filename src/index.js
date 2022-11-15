@@ -95,3 +95,4 @@ visionh4.innerHTML = siteContent["main-content"]["vision-h4"];
 servicesContent.innerHTML = siteContent["main-content"]["services-content"];
 productContent.innerHTML = siteContent["main-content"]["product-content"];
 visionContent.innerHTML = siteContent["main-content"]["vision-content"];
+copyRight.innerHTML = siteContent.footer.copyright;
