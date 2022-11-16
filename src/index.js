@@ -84,7 +84,7 @@ ctaButton.innerHTML = siteContent.cta.button;
 ctaImg.src = siteContent.images["cta-img"]
 
 
-featuresHeadline.innerHTML = siteContent.contact["contact-h4"];
+featuresHeadline.innerHTML = siteContent["main-content"]["features-h4"]
 aboutHeadline.innerHTML = siteContent["main-content"]["about-h4"];
 featuresText.innerHTML = siteContent["main-content"]["features-content"];
 aboutText.innerHTML =siteContent["main-content"]["about-content"];
@@ -96,3 +96,9 @@ servicesContent.innerHTML = siteContent["main-content"]["services-content"];
 productContent.innerHTML = siteContent["main-content"]["product-content"];
 visionContent.innerHTML = siteContent["main-content"]["vision-content"];
 copyRight.innerHTML = siteContent.footer.copyright;
+navLinks.forEach((x)=>x.classList.add("italic"));
+copyRight.classList.add("bold")
+contactHeader.innerHTML = siteContent.contact["contact-h4"];
+contactTexts[0].innerHTML =siteContent.contact.address;
+contactTexts[1].innerHTML = siteContent.contact.phone;
+contactTexts[2].innerHTML = siteContent.contact.email;
